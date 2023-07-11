@@ -137,6 +137,48 @@ header {
   gap: 24px;
 }
 
+/* team related styles */
+.team-container {
+  margin-top: 125px;
+}
+.team-member-content {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.team-member > img {
+  width: 320px;
+  border-radius: 10px;
+}
+.team-member-name {
+  color: #272727;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  padding-top: 16px;
+}
+.team-member-designation {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+/* about related styles */
+.about-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 125px 0;
+}
+.about-container > img {
+  width: 50%;
+  border-radius: 12px;
+}
+
+.about-section {
+  text-align: left;
+}
+
 /* subscribe related styles*/
 .subscribe-container {
   background-image: url("../images/Rectangle\ 9.png");
