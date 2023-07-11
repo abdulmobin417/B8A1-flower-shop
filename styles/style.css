@@ -99,6 +99,37 @@ header {
   padding-top: 32px;
 }
 
+/* support related styles */
+.support-content {
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  padding: 86px 175px;
+  margin: 128px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.support-title {
+  color: rgba(39, 39, 39, 0.8);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  padding-top: 32px;
+}
+/* offer related styles */
+.offer {
+  background-color: rgba(229, 84, 115, 0.05);
+  padding: 100px 0;
+  margin-bottom: 128px;
+}
+.offer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
 /* footer related styles */
 footer {
   background-color: #111010;
