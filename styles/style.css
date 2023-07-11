@@ -130,6 +130,33 @@ header {
   text-align: center;
 }
 
+/* instagram related styles */
+.instagram-image-container {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+/* subscribe related styles*/
+.subscribe-container {
+  background-image: url("../images/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  padding: 122px 287px;
+  margin: 128px 0;
+}
+.contact {
+  display: flex;
+  gap: 16px;
+}
+.input-box {
+  border: none;
+  border-radius: 8px;
+  background: #fff;
+  padding: 23px;
+  color: rgba(39, 39, 39, 0.6);
+  width: 700px;
+}
+
 /* footer related styles */
 footer {
   background-color: #111010;
